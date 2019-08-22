@@ -1,8 +1,49 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset = "UTF-8">
-  </head>
-  <body>
-   <h1><div style="font:12px bolder '微软雅黑'"><font color = "#32CD32">呀，被你发现我在咕咕咕，22号我一定写完！</font></div></h1>
-  </body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+        <title>selenuim弹窗</title>
+    </head>
+    <body>
+        <div align="center">
+        <h4>一起测试吧</h4>
+        <input type="button" onclick="jianjian()" value="带输入框的弹窗"/>
+        <span id="textSpan"></span>
+        <div align="center">
+
+
+        <font color="red" size="6">
+
+
+        <p>DOTA是什么：
+
+
+        <a href="https://www.dota2.com.cn/index.htm">DOTA2官网</a>
+
+
+        <a href="https://www.dota2.com.cn/download/">下载游戏</a>
+
+        </p>
+        <p>这里的游戏很好玩，里面有吃鸡哦：
+        <a href="https://store.steampowered.com/">STEAM</a>
+
+        </p>
+        </div>
+    </body>
+    <script>
+        function jianjian(){
+            document.getElementById("textSpan").innerHTML="";
+            con = prompt("输入1为OK，输入2为false");
+            if(con==1){
+                document.getElementById("textSpan").innerHTML="<font style='color: green;'>OK</font>";
+            }else if(con==2){
+                document.getElementById("textSpan").innerHTML="<font style='color: green;'>都说了false还输入啊</font>";
+            }else{
+                document.getElementById("textSpan").innerHTML="<font style='color: red;'>您没有按要求输入，请重新输入</font>";
+            }
+        }
+    </script>
 </html>
+ ———————————————— 
+版权声明：本文为CSDN博主「deakth_tiger」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/weixin_43249821/article/details/85276190
