@@ -14,8 +14,8 @@
             height: 75px;
             border: 0;
             border-left: 1px solid rgb(23, 32, 43, 0.2);
-            background: #AA3344;
-            color: #fff;
+            background: #FFFFFF;
+            color: #272727;
             cursor: pointer;
         }
         
@@ -27,7 +27,7 @@
             width: 300px;
             margin-left: 0;
             display: block;
-            background-color: #a34;
+            background-color: #000000;
             -moz-transition: margin-left 2s;
             transition: margin-left 2s;
         }
