@@ -4,7 +4,7 @@
         <meta http-equiv = "Content-Type" content="text/html; charset = UTF-8">
         <link rel = "icon" href = "picture.jpg" type = "image/x-icon"/>
         <link rel = "stylesheet" href = "mlgb.css" type = "text/css">
-        <link rel = "stylesheet" href = "head_main_footer" type = "text/css">
+        <link rel = "stylesheet" href = "head_main_footer.css" type = "text/css">
         <style>
             body {
                 background-image:url(https://cdn.luogu.org/upload/pic/74212.png);
@@ -39,38 +39,34 @@
                 <p></p>
                 <div align="center">
                 <font color="blue" size="3">
-                <p>脱发机房是什么：
-                一个在<a href="https://www.luogu.org" target = "_blank">洛谷</a>苟命的团队
-                </p>
+                <p>脱发机房是什么：一个在<a href="https://www.luogu.org" target = "_blank">洛谷</a>苟命的团队</p>
                 <font color="yellow" size="4">
                 <p><a href="https://www.luogu.org/team/show?teamid=19332" target = "_blank">加入我们</p>
                 </div>
             </section>
         </div>
-      <div class="footer"><h3>版本：Alpha 0.0.7a1c(A in 16)</h3></div>
+      <div class = "footer"><h3>版本：Alpha 0.0.7a1c(B in 16) info:/bug fixed</h3></div>
     </body>
     <script>
         function jianjian(){
             document.getElementById("textSpan").innerHTML="";
             con = prompt("输入1为OK，输入2为false");
-            if(con==1){
+            if(con == "小饼干"){
                 document.getElementById("textSpan").innerHTML="<font style='color: green;'>OK</font>";
-            }else if(con==2){
+            }else if(con == 2){
                 document.getElementById("textSpan").innerHTML="<font style='color: green;'>都说了false还输入啊</font>";
             }else{
                 document.getElementById("textSpan").innerHTML="<font style='color: red;'>您没有按要求输入，请重新输入</font>";
             }
         }
-    </script>
-    <script>
         function guagua(){
-            var box = document.getElementById("test")
-            var btn = document.getElementById("btn")
+            var box = document.getElementById("test");
+            var btn = document.getElementById("btn");
             btn.onclick = function() {
                 if (box.offsetLeft == 0) {
-                    box.style['margin-left'] = -300 + "px"
+                    box.style['margin-left'] = -300 + "px";
                 } else {
-                    box.style['margin-left'] = 0 + "px"
+                    box.style['margin-left'] = 0 + "px";
                 }
             }
         }
