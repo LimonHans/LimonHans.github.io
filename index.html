@@ -7,8 +7,9 @@
         <link rel = "stylesheet" href = "head_main_footer" type = "text/css">
         <style>
             body {
-                background-image:"https://cdn.luogu.org/upload/pic/74212.png"
-                background-repeat:no-repeat
+                background-image:url(https://cdn.luogu.org/upload/pic/74212.png);
+                background-repeat:no-repeat;
+                background-size:100% auto;
             }
         </style>
         <title>Welcome to Alo_JKF_cpur</title>
@@ -66,10 +67,11 @@
             var box = document.getElementById("test")
             var btn = document.getElementById("btn")
             btn.onclick = function() {
-            if (box.offsetLeft == 0) {
-                box.style['margin-left'] = -300 + "px"
-            } else {
-                box.style['margin-left'] = 0 + "px"
+                if (box.offsetLeft == 0) {
+                    box.style['margin-left'] = -300 + "px"
+                } else {
+                    box.style['margin-left'] = 0 + "px"
+                }
             }
         }
     </script>
