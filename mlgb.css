@@ -16,7 +16,7 @@
             height: 75px;
             border: 0;
             border-left: 1px solid rgb(23, 32, 43, 0.2);
-            background: #FFFFFF;
+            background-color: transparent;
             color: #272727;
             cursor: pointer;
         }
