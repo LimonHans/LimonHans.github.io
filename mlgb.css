@@ -35,7 +35,7 @@
             border-bottom: 1px solid #fff;
             list-style-type: none;
             text-align: center;
-            opacity:0.0;
+            opacity:1;
         }
         
         aside ul li a {
@@ -44,12 +44,12 @@
             text-decoration-line: none;
             color: #fff;
             display: block;
-            opacity:0.0;
+            opacity:1;
         }
         
         aside ul li a:hover {
             background: #d3d;
-            opacity:0.0;
+            opacity:1;
         }
         
         section {
