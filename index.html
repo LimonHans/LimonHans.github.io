@@ -73,7 +73,7 @@
         <title>Welcome to Alo_JKF_cpur</title>
     </head>
     <body>
-        <style type = "text/css">
+        <div style = "text/css">
             <aside class="box" id="test">
             <button id="btn">三</button>
                 <ul>
@@ -92,7 +92,7 @@
             <section>
             <h1>Main Content</h1>
             </section>
-        </style>
+        </div>
         <div align="center">
         <h1>欢迎来到 脱发机房 成都</h1>
         <input type="button" onclick="jianjian()" value="还不知道这是要来干嘛的"/>
@@ -120,14 +120,16 @@
         }
     </script>
     <script>
-        var box = document.getElementById("test")
-        var btn = document.getElementById("btn")
-        btn.onclick = function() {
-        if (box.offsetLeft == 0) {
-            box.style['margin-left'] = -300 + "px"
-        } else {
-            box.style['margin-left'] = 0 + "px"
+        function guagua(){
+            var box = document.getElementById("test")
+            var btn = document.getElementById("btn")
+            btn.onclick = function() {
+            if (box.offsetLeft == 0) {
+                box.style['margin-left'] = -300 + "px"
+            } else {
+                box.style['margin-left'] = 0 + "px"
+            }
         }
+
     </script>
-    <>
 </html>
