@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <charset = "UTF-8">
+  </head>
+  <body>
+    <!--part 1-->
+     <h3>访问颜色选择器</h3>
+     选择一个颜色：<input type = "color" id = "Color_Geter">
+     <p>请点击按钮来为颜色选择器获得颜色。</p>
+     <p id = "demo"></p>
+     <button onclick = "myFunction()">获取该颜色</button>
+  </body>
+  <script>
+    <!--part 1-->
+    function myFunction() {
+      var x = document.getElementById("Color_Geter").value;
+      document.getElementById("demo").innerHTML = x;
+    }
+  </script>
+</html>
