@@ -12,7 +12,6 @@
             background-color: #FFFFFF;
             color: #272727;
             cursor: pointer;
-            opcity:1;
         }
         
         .box {
@@ -24,7 +23,6 @@
             margin-left: 0;
             display: block;
             background-color: #4DFFFF;
-            opacity:0.4;
             -moz-transition: margin-left 1.5s;
             transition: margin-left 1.5s;
         }
@@ -36,7 +34,6 @@
             border-bottom: 1px solid #fff;
             list-style-type: none;
             text-align: center;
-            opacity:1;
         }
         
         aside ul li a {
@@ -45,12 +42,10 @@
             text-decoration-line: none;
             color: #fff;
             display: block;
-            opacity:1;
         }
         
         aside ul li a:hover {
             background: #d3d;
-            opacity:1;
         }
         
         section {
