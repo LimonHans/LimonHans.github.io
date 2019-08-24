@@ -22,7 +22,7 @@
             width: 300px;
             margin-left: 0;
             display: block;
-            background-color: #4DFFFF;
+            background-color: #000000;
             -moz-transition: margin-left 1.5s;
             transition: margin-left 1.5s;
         }
