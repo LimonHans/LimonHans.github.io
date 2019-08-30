@@ -1,94 +1,43 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
     <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
-         (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-3557290228204867",
-           enable_page_level_ads: true
-          });
-        </script>
-        <meta http-equiv = "Content-Type" content="text/html; charset = UTF-8">
-        <link type = "image/x-ico" rel = "icon" href = "https://s2.ax1x.com/2019/08/28/m7j53q.jpg">
-        <link type = "text/css" rel = "stylesheet" href = "mlgb.css">
-        <link type = "text/css" rel = "stylesheet" href = "head_main_footer.css">
-        <style>
-          body{
-            background-image:url(https://s2.ax1x.com/2019/08/23/mDZclj.jpg);
-            background-repeat:no-repeat;
-            background-size:100% auto;
-          }
-        </style>
-        <title>Welcome to Alo_JKF_cpur</title>
+        <meta charset="UTF-8"/>
+        <link type = "image/x-ico" rel = "icon" href = "https://s2.ax1x.com/2019/08/28/m7j53q.jpg"/>
+        <title>Beta 测试</title>
     </head>
-    <body>
-        <div style = "text/css">
-            <aside class="box" id="test">
-            <button id="btn" onclick = "guagua()" onload = "guagua()">三</button>
-                <ul>
-                    <li>
-                        <font color = "white"><h2>导航栏</h2></font>
-                    </li>
-                    <li><a href="community_ISO">开源镜像</a></li>
-                    <li><a href="community_quickuse">快速使用</a></li>
-                    <li><a href="#">日后加入</a></li>
-                    <li><a href="#">日后加入</a></li>
-                    <li><a href="#">日后加入</a></li>
-                    <li><a href="#">日后加入</a></li>
-                    <li><a href="#">日后加入</a></li>
-                </ul>
-            </aside>
-            <!--onload = guagua()-->
-            <section>
-                <div align="center"><font color="red" size="7"><a herf="Temporary">beta版通道_搭建中</a></font></div>
-                <div align="center">
-                 <p><font color="blue" size="6"><h1>欢迎来到 脱发机房 成都</h1></font></p>
-                 <input type="button" onclick="jianjian()" value="还不知道这是要来干嘛的"/>
-                 <span id="textSpan"></span>
-                </div>
-                <p></p>
-                <div align="center">
-                 <font color="blue" size="3">
-                  <p>脱发机房是什么：一个在<a href="https://www.luogu.org" target = "_blank">洛谷</a>苟命的团队</p>
-                 </font>
-                 <font color="yellow" size="4">
-                  <p><a href="https://www.luogu.org/team/show?teamid=19332" target = "_blank">加入我们</a></p>
-                 </font>
-                </div>
-                <br><br><br>
-                <div align = "center">
-                  <p><font color = "yellow">
-                    此次更新：停滞并且向beta版出发，alpha可能用作底层  8:28 in 8/24。
-                  </font></p>
-                  进度
-                  <progress min="0" max="100" value="30"></progress>
-                </div>
-            </section>
-        </div>
-      <div class = "footer" align = "right" opacity="0.3"><font color = "white" size= "4">Alpha 0.0.7a1e + (3 in 16 in 6) info:/footer fixed  </font></div>
-    </body>
     <script>
-        function jianjian(){
-            document.getElementById("textSpan").innerHTML="";
-            con = prompt("输入小饼干为OK，输入2为false");
-            if(con == "小饼干"){
-                document.getElementById("textSpan").innerHTML="<font style='color: green;'>OK</font>";
-            }else if(con == 2){
-                document.getElementById("textSpan").innerHTML="<font style='color: green;'>都说了false还输入啊</font>";
-            }else{
-                document.getElementById("textSpan").innerHTML="<font style='color: red;'>您没有按要求输入，请重新输入</font>";
-            }
-        }
-        function guagua(){
-            var box = document.getElementById("test");
-            var btn = document.getElementById("btn");
-            btn.onclick = function() {
-                if (box.offsetLeft == 0) {
-                    box.style['margin-left'] = -300 + "px";
-                } else {
-                    box.style['margin-left'] = 0 + "px";
-                }
-            }
+        function RandomPlace(){
+            return Math.random()%1300 + 63;
+            alert("mkin");
         }
     </script>
+    <body>
+        <h2>现在是框架阶段</h2>
+        <ul>
+            <li>许多功能尚未完善，十分简陋</li>
+            <li>提示1：此为beta版</li>
+            <li>提示2：不久后将更新域名及服务器，新网址将在90%进度后展示于此处</li>
+            <li><progress min="0" max="100" value="30.07"></progress>30.07%</li>
+        </ul>
+        <header>
+            <div align="center"><font size="7">SVG Drawer</font></div>
+            <svg width="1600" height="700">
+                <circle cx="800" cy="300" r="63" fill="black"/>
+                <circle cx="600" cy="160" r="63" fill="black"/>
+                <line x1="800" y1="300" x2="600" y2="160" fill="black" style="stroke:rgb(0,0,0);stroke-width:5.3"/>
+                <text x="770" y="307" fill="white">Alo_Cpur</text>
+                <text x="1400" y="600" fill="black">像这样加入很多⚪</text>
+            </svg>
+        </header>
+        <main>
+            <div align="center"><button id="road-map" onclick="">三</button></div>
+            <div align="center">
+                <p>这个button将roadmap与下方主界面分开</p>
+                <p><a href="https://www.luogu.org/team/show?teamid=19332" target = "_blank">Alo在洛谷上的团队</a></p>
+            </div>
+        </main>
+        <footer>
+            <h4>This is footer</h4>
+        </footer>
+    </body>
 </html>
